@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* Login Page css */
+#loginpage{
+	margin-top:5%;
+	
+	}
+.whitebg {
+	background-color: #FFFFFF;
+	border-top: 5px solid #3074a6;
+}
+.logoimg {
+	margin: 20px;
+}
+.col-centered {
+	float: none !important;
+	padding: 0px !important;
+	margin: 0 auto;
+}
+.top-margin {
+	margin-top: 20px !important;
+}
+.margin-content {
+	margin: 20px !important;
+}
+.Bottom-margin {
+	margin-bottom: 20px !important;
+}
+.col-right-line {
+	margin-right: -1px;
+	border-right: 1px solid #cccccc;
+}
+#panellogin {
+	margin-bottom: 0px !important;
+}
+.sub {
+	height: 12px;
+	display: table-cell;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.sub:last-child {
+	border: 0px;
+}
+.row .vdivide {
+	margin-left: 10px;
+	font-size: 11px;
+}
+.row .vdivide li {
+	color: #7F7F7F;
+	padding: 0px !important;
+	float: left;
+}
+.text-gray {
+	color: #7F7F7F !important;
+}
+	
+	/* Login Page css end */
+	@media only screen and (max-width: 70em) { /*1120px*/
+	
+	}
+@media only screen and (max-width: 64em) { /*1024px*/
+}
+
+@media only screen and (max-width: 54.7em) {  /*876px*/
+
+}
+@media only screen and (max-width: 51.25em) { /*820px*/ 
+.col-right-line {
+	margin-right: -1px;
+	border-right: none;
+}
+.margin-content {
+	margin: 10px !important;
+}
+}
+@media only screen and (max-width: 48em) { /*768px*/ 
+
+}
+
+
+@media only screen and (max-height: 40em) {  /*656px*/ 
+}
+@media only screen and (max-width: 36.625em) { 
+
+
+}

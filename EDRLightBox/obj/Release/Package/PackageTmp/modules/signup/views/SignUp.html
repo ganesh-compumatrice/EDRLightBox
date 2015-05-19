@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <style></style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="loginpage" class="row ">
+            <div class="col-md-10 col-sm-11 col-lg-6 col-xs-12 modal-header col-centered whitebg ">
+                <div class="row margin-content">
+                    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12  ">
+                        <div align="center" class="logoimg"><img src="images/logo_u25.png" alt="logoimg" /> </div>
+                        <div class="col-md-12">
+                            <h1> NEW ACCOUNT</h1>
+                            <p>
+                                Please provide the information requested below to set up a credit account with EDR. We will get an account set up for you within the next business
+                                day—usually sooner.
+                            </p>
+                            <h3> COMPANY INFORMATION </h3>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <div class="form-group">
+                            <form id="registerForm" novalidate>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12  form-group">
+                                    <input type="text" class="form-control" id="username" name="username" data-ng-model="companyname" value="" required title="Please enter you username" placeholder="Company Name">
+
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12 form-group">
+
+                                    <industry-ctrl ng-model="industryValue"></industry-ctrl>
+
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 form-group">
+
+                                    <input type="text" class="form-control" id="FirstName" name="FirstName" data-ng-model="firstname" value="" required placeholder="First Name" title="First Name">
+
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-6 col-xs-12 form-group">
+
+                                    <input type="text" class="form-control" id="LastName" name="LastName" data-ng-model="lastname" value="" required placeholder="Last Name" title="Last Name">
+
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+
+                                    <input type="text" class="form-control" id="Address" name="Address" value="" data-ng-model="address" required placeholder="Address (billing)" title="Address (billing)">
+
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12 form-group">
+
+                                    <input type="text" class="form-control" id="Suite" name="Suite" data-ng-model="suit" value="" required placeholder="Suite / Floor / Unit" title="Suite / Floor / Unit">
+
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 form-group">
+
+
+                                    <zip-ctrl ng-model="zipcode" ng-required="zipRequired"> </zip-ctrl>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-lg-5 col-xs-12 form-group">
+
+                                    <input type="text" class="form-control" id="City" name="City" data-ng-model="city" value="" required placeholder="City" title="City">
+
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12 form-group">
+
+                                    <state-ctrl ng-model="stateValue"></state-ctrl>
+                                </div>
+                                <div class="col-md-12">
+                                    <h3> USER INFORMATION</h3>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+
+
+                                    <email-ctrl plcholder="email" ng-model="useremail"> </email-ctrl>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+
+
+                                    <email-ctrl plcholder="reEmail" ng-model="reusereemail"> </email-ctrl>
+
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+
+
+                                    <password-ctrl ng-model="userpassword" pattern=""> </password-ctrl>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+
+
+                                    <password-ctrl ng-model="userrepassword" pattern=""> </password-ctrl>
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-lg-8 col-xs-12 form-group">
+                                    <img src="images/recaptcha_u64.png" alt="captcha" />
+
+                                </div>
+                                <div class="clearfix"></div>
+                                <div align="center" class="col-md-offset-2 ">
+                                    <div class="col-md-5  col-sm-5 col-lg-5 col-xs-12 form-group">
+
+                                        <button type="button" class="btn btn-default btn-block" ng-click="btnCancel()">CANCEL</button>
+                                    </div>
+                                    <div class="col-md-5 col-sm-5 col-lg-5 col-xs-12 form-group">
+
+                                        <button type="button" class="btn btn-primary btn-block" ng-click="btnSignup(registerForm)">SIGN UP</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- footer -->
+                        <div class="clearfix"></div>
+                        <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2  top-margin">
+                            <div class="row vdivide">
+                                <ul class="list-unstyled ">
+                                    <li class="sub text-center "><a href=""> Home </a></li>
+                                    <li> | </li>
+                                    <li class="sub text-center"><a href=""> Privacy Policy </a></li>
+                                    <li> | </li>
+                                    <li class="sub text-center"><a href="">Terms & Conditions </a></li>
+                                    <li> | </li>
+                                    <li class="sub text-center"><a href="">Contact Us </a></li>
+                                </ul><div class="clearfix"></div>
+
+                            </div>
+
+                        </div>
+                        <div class="text-center vdivide text-gray"> © EDR 2015 </div>
+                        <!-- footer end -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>

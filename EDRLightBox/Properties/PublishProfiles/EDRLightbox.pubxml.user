@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\EDR</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EDRLightBox.dll">
+      <publishTime>05/18/2015 18:53:57</publishTime>
+    </File>
+    <File Include="components/btnComponent.html">
+      <publishTime>05/15/2015 09:46:33</publishTime>
+    </File>
+    <File Include="components/emailControl.html">
+      <publishTime>05/18/2015 16:11:11</publishTime>
+    </File>
+    <File Include="components/industry_ddControl.html">
+      <publishTime>05/18/2015 16:17:48</publishTime>
+    </File>
+    <File Include="components/passwordControl.html">
+      <publishTime>05/18/2015 15:56:50</publishTime>
+    </File>
+    <File Include="components/stateControl.html">
+      <publishTime>05/18/2015 16:16:00</publishTime>
+    </File>
+    <File Include="components/zipControl.html">
+      <publishTime>05/18/2015 16:14:53</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>05/14/2015 16:30:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-Bold.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-BoldItalic.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-ExtraBold.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-ExtraBoldItalic.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-Italic.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-Light.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-LightItalic.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-Regular.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-Semibold.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="fonts/open-sans/OpenSans-SemiboldItalic.ttf">
+      <publishTime>05/14/2015 10:43:58</publishTime>
+    </File>
+    <File Include="images/bg.jpg">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="images/EDR_blue70.png">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="images/EDR_ltgrey70.png">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="images/EDR_white70.png">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="images/logo_u25.png">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="images/recaptcha_u64.png">
+      <publishTime>05/14/2015 10:43:46</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/18/2015 18:53:19</publishTime>
+    </File>
+    <File Include="JSON/industry.js">
+      <publishTime>05/18/2015 15:40:24</publishTime>
+    </File>
+    <File Include="JSON/Login_Sample.js">
+      <publishTime>05/18/2015 15:37:46</publishTime>
+    </File>
+    <File Include="JSON/states.js">
+      <publishTime>05/18/2015 15:38:11</publishTime>
+    </File>
+    <File Include="modules/dashboard/DashboardController.js">
+      <publishTime>05/14/2015 10:54:58</publishTime>
+    </File>
+    <File Include="modules/dashboard/dashboard_Ctrl.js">
+      <publishTime>05/13/2015 11:08:40</publishTime>
+    </File>
+    <File Include="modules/dashboard/views/dashboard.html">
+      <publishTime>05/13/2015 11:08:40</publishTime>
+    </File>
+    <File Include="modules/signin/controllers/signInController.js">
+      <publishTime>05/18/2015 18:14:38</publishTime>
+    </File>
+    <File Include="modules/signin/views/signIn.html">
+      <publishTime>05/18/2015 18:53:21</publishTime>
+    </File>
+    <File Include="modules/signup/controllers/signUpController.js">
+      <publishTime>05/18/2015 14:16:48</publishTime>
+    </File>
+    <File Include="modules/signup/views/SignUp.html">
+      <publishTime>05/18/2015 18:45:45</publishTime>
+    </File>
+    <File Include="modules/Utilities/services/stateCtrlService.js">
+      <publishTime>05/18/2015 14:58:32</publishTime>
+    </File>
+    <File Include="scripts/app.js">
+      <publishTime>05/18/2015 18:24:53</publishTime>
+    </File>
+    <File Include="scripts/jsDirectives/passwordDirective.js">
+      <publishTime>05/15/2015 17:11:01</publishTime>
+    </File>
+    <File Include="scripts/vendor/angular-route.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/angular-ui-bootstrap.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/angular-ui-router.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/angular.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/angular_v1.2.16.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/bootstrap.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/HTML5-Shiv.js">
+      <publishTime>05/18/2015 18:48:37</publishTime>
+    </File>
+    <File Include="scripts/vendor/jquery-1.11.2.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="scripts/vendor/modernizr.min.js">
+      <publishTime>05/18/2015 18:48:37</publishTime>
+    </File>
+    <File Include="scripts/vendor/plugins.js">
+      <publishTime>05/18/2015 18:48:37</publishTime>
+    </File>
+    <File Include="scripts/vendor/respond.js">
+      <publishTime>05/18/2015 18:48:37</publishTime>
+    </File>
+    <File Include="scripts/vendor/ui-bootstrap-tpls-0.11.0.min.js">
+      <publishTime>05/13/2015 10:54:48</publishTime>
+    </File>
+    <File Include="styles/bootstrap-glyphicons.css">
+      <publishTime>05/13/2015 10:55:04</publishTime>
+    </File>
+    <File Include="styles/bootstrap-theme.min.css">
+      <publishTime>05/18/2015 18:45:42</publishTime>
+    </File>
+    <File Include="styles/bootstrap.css">
+      <publishTime>05/18/2015 18:45:42</publishTime>
+    </File>
+    <File Include="styles/bootstrap.css.map">
+      <publishTime>05/18/2015 18:45:42</publishTime>
+    </File>
+    <File Include="styles/bootstrap.min.css">
+      <publishTime>05/18/2015 18:45:42</publishTime>
+    </File>
+    <File Include="styles/fontcss.css">
+      <publishTime>05/14/2015 10:44:26</publishTime>
+    </File>
+    <File Include="styles/grid.css">
+      <publishTime>05/13/2015 10:55:04</publishTime>
+    </File>
+    <File Include="styles/jquery-ui-themes.css">
+      <publishTime>05/13/2015 10:55:04</publishTime>
+    </File>
+    <File Include="styles/landingpage.css">
+      <publishTime>05/13/2015 10:55:04</publishTime>
+    </File>
+    <File Include="styles/sample.css">
+      <publishTime>05/13/2015 10:55:04</publishTime>
+    </File>
+    <File Include="styles/Style.css">
+      <publishTime>05/18/2015 18:50:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/14/2015 17:44:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

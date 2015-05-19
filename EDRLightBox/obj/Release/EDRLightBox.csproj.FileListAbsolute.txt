@@ -1,0 +1,6 @@
+C:\EDR\EDRLightBox\EDRLightBox\bin\EDRLightBox.dll.config
+C:\EDR\EDRLightBox\EDRLightBox\bin\EDRLightBox.dll
+C:\EDR\EDRLightBox\EDRLightBox\bin\EDRLightBox.pdb
+C:\EDR\EDRLightBox\EDRLightBox\obj\Release\EDRLightBox.csprojResolveAssemblyReference.cache
+C:\EDR\EDRLightBox\EDRLightBox\obj\Release\EDRLightBox.dll
+C:\EDR\EDRLightBox\EDRLightBox\obj\Release\EDRLightBox.pdb
